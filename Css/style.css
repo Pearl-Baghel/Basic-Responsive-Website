@@ -7,7 +7,15 @@
     --navbar-height: 60px;
 }
 /* Navigation bar */
-#navbar{
+#navbar {
     display: flex;
+align-items: center;
+}
+/* Navigation bar Logo and Image */
+#logo{
 
 }
+#logo img{
+    
+}
+/* Navigation bar List Styling */
