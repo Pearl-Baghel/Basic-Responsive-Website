@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Variables */
+:root{
+    --navbar-height: 60px;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+
+}
