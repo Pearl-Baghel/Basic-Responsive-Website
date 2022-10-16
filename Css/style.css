@@ -32,8 +32,8 @@
 }
 
 #logo img {
-    height: 100px;
-    margin: 0px 0px;
+    height: 85px;
+    margin: 10px 0px;
 }
 
 /* Navigation bar List Styling */
@@ -48,7 +48,8 @@
 }
 
 #navbar ul li a {
-    color: white;
+    color: rgb(78, 1, 1);
+    font-weight: bold;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
@@ -72,12 +73,12 @@
 
 #home::before {
     content: "";
-    background: url('./bg\ 2.jpg') no-repeat center/cover;
+    background: url('./bg.jpg') no-repeat center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.70;
+    opacity: 0.65;
 }
 
 #home h1 {
@@ -89,24 +90,55 @@
 #home p {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Service section */
+#services{
+    display: flex;
+    margin: 35px;
+    
+}
+.services h1{
+    margin-top: 100px;
+text-align: center;
+}
+#services .box{
+    padding: 30px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(255, 211, 130);
+}
+#services .box img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
 /* Utility Classes */
 
 .h-primary {
     font-size: 3rem;
     padding: 15px;
 }
+.h-secondary {
+    font-size: 2rem;
+    padding: 15px;
+}
 
 .btn {
-    padding: 3px 15px;
+    padding: 5px 15px;
+    font-weight: bold;
     margin: 20px;
     border: 2px solid white;
     color: black;
     background-color: brown;
-    font-size: 1.25rem;
+    font-size: 1.00rem;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.center{
+    text-align: center;
 }
