@@ -132,12 +132,12 @@ height: 350px;
 }
 #client-section::before{
     content: "";
-    background: url('../Css/bg\ 2.jpg')
     position: absolute;
-    height: 100%;
+    background: url('./bg 1.jpg') no-repeat center/cover;
     width: 100%;
+    height: 40%;
     z-index: -1;
-    opacity: 0.50;
+    opacity: 0.5;
 }
 
 #clients{
@@ -146,10 +146,10 @@ height: 350px;
     align-items: center;
 }
 #clients img {
-height: 80px;
+height: 45px;
 }
 .client-item{
-    padding: 50px;
+    padding: 20px;
 }
 
 /* Utility Classes */
